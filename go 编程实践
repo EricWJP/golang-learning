@@ -1,0 +1,24 @@
+绝对值
+func distance(a, b int) int {
+  if a < b {
+    return b - a
+  }
+  return a - b
+}
+比
+  int(math.Abs(float64(target)))
+更快
+
+求数组中最值，最近值，最远值, 最相关元组 问题
+  1、排序 sort.Ints(nums)
+  2、双指针两头遍历
+
+类型转化
+string转成int：
+  int, err := strconv.Atoi(string)
+string转成int64：
+  int64, err := strconv.ParseInt(string, 10, 64)
+int转成string：
+  string := strconv.Itoa(int)
+int64转成string：
+  string := strconv.FormatInt(int64,10)
